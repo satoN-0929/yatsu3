@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+<div id="pictures_page">
+
+  <div class="slide-wrapper">
+      <h2 class="slide-title">写真コーナー</h2>
+        <div class="change-btn-wrapper">
+          <div class="change-btn prev-btn">← 前へ</div>
+          <div class="change-btn next-btn">次へ →</div>
+        </div>
+        <ul class="slides">
+          <!-- ビッグくまモン -->
+          <li class="slide active"><img src="../static/img/IMGP3432.JPG"></li>
+          <!-- 十二支くまモン -->
+          <li class="slide"><img src="../static/img/IMGP3420.JPG"></li>
+          <!-- ミニ神社 -->
+          <li class="slide"><img src="../static/img/IMGP3418.JPG"></li>
+          <!-- 日本庭園 -->
+          <li class="slide"><img src="../static/img/IMGP3415.JPG"></li>
+          <!-- 追加
+          こんなところに -->
+          <li class="slide"><img src="../static/img/IMGP3439.JPG"></li>
+        </ul>
+        <div class="index-btn-wrapper">
+          <div class="index-btn">ビッグくまモン</div>
+          <div class="index-btn">十二支くまモン</div>
+          <div class="index-btn">ミニ神社</div>
+          <div class="index-btn">日本庭園</div>  
+          <!-- 追加 -->
+          <div class="index-btn">よく見ると</div>  
+        </div>
+      </div>
+
+  <div class="back_i">
+      <a href="/index">戻る</a>
+  </div>
+
+</div>
+{% endblock %}

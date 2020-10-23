@@ -1,0 +1,455 @@
+@charset "UTF-8";
+
+/* ------------------- リセット ------------------- */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+    vertical-align: bottom;
+}
+
+/* ------------------------------------------------ */
+
+/* ------------------- 編集箇所 ------------------- */
+.test0 {
+    height: 100px;
+    width: 100%;
+    color: white;
+    /* background-color: rgb(219, 83, 83); */
+    background-image: url(../img/メニュー用.png);
+
+    opacity: 0.8;
+    /* 表示を固定 */
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.test0 h1 {
+    font-size: 22px;
+    font-family: "Yu Mincho";
+    float: left;
+    padding: 10px;
+    margin: 5px 40px 0 120px;
+}
+
+.test0 h1:hover {
+    font-size: 22px;
+    font-family: "Yu Mincho";
+    float: left;
+    padding: 10px;
+    margin: 5px 40px 0 120px;
+    color: red;
+}
+
+
+
+#big-pic {
+    height: 450px;
+    width: 100%;
+    background-image: url(../img/IMGP3449.JPG);
+    background-size: cover;
+    color: white;
+    padding-bottom: 100px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#big-pic p {
+    font-family: "Yu Mincho";
+    font-size: 45px;
+    float: left;
+    text-align: left;
+    padding: 210px 0 0 80px;
+}
+
+#guzai {
+    background-image: url(../img/bg096_05.gif);
+}
+
+#contents {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/bg034_08.gif);
+}
+
+#con_title {
+    padding: 30px 0;
+}
+
+#contents h2 {
+    margin-bottom: 5px;
+}
+
+.content .acontent_link {
+    float: center;
+    background-color: orange;
+    padding: 20px;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    /* background-color: rgb(206, 184, 204); */
+    /* 出典：http://umetouguisu.wp.xdomain.jp/64/ */
+    background-image: url(../img/梅雨-1024x576.png);
+}
+
+#port_page {
+    background-image: url(../img/bg034_08.gif);
+}
+
+#port_title {
+    padding: 120px 0 30px 0;
+    color: purple;
+    font-family: "Yu Mincho";
+    font-size: 32px;
+}
+
+#port_contents {
+    width: 90%;
+    background-image: url(../img/bg034_09.gif);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#port_text p {
+    text-align: left;
+    padding: 20px 20px;
+}
+
+#port_contents #port_pic {
+    padding: 20px 0;
+}
+
+#port_contents_2 {
+    width: 90%;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#port_contents_2 #port_d {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#access iframe {
+    margin: 20px;
+}
+
+#access {
+    height: 300px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 50px 0;
+}
+
+#kumamon_page {
+    background-image: url(../img/screen_2x.png);
+}
+
+#kumamon_title {
+    padding: 120px 0 30px 0;
+    color: blueviolet;
+    font-family: "Yu Mincho";
+    font-size: 32px;
+}
+
+#kumamon_contents {
+    width: 90%;
+    background-image: url(../img/bg034_02.gif);
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#kumamon_contents #kumamon_pic {
+    width: 35%;
+    padding: 0px 10px 0px 20px;
+}
+
+#kumamon_text {
+    width: 50%;
+    padding: 50px 20px 0px 20px;
+}
+
+.sb_tl {
+    margin-top: 35px;
+    font-size: 22px;
+    font-family: "Yu Mincho";
+}
+
+#kumamon_contents_2 {
+    width: 90%;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#dancing_kumamon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#now_page {
+    background-image: url(../img/bg034_04.gif);
+}
+
+
+#now_title {
+    padding: 120px 0 30px 0;
+    color: blueviolet;
+    font-family: "Yu Mincho";
+    font-size: 32px;
+}
+
+#now_contents {
+    width: 90%;
+    background-image: url(../img/bg034_09.gif);
+    margin-left: auto;
+    margin-right: auto
+}
+
+#now_text p {
+    text-align: left;
+    padding: 20px;
+}
+
+#now_contents #now_pic {
+    padding: 20px 0;
+}
+
+.add_text {
+    font-family: "Yu Mincho";
+    font-size: 20px;
+    width: 90%;
+    margin: 40px 0 5px 0;
+    background-image: url(../img/bg034_09.gif);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#now_contents_2 {
+    width: 90%;
+    background-image: url(../img/bg034_09.gif);
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#now_contents_2 #now_pic_2 {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#now_contents_2 #now_text_2 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+}
+
+.back_i {
+    font-size: 20px;
+    padding: 60px 0 0 0;
+    font-family: "Yu Mincho";
+}
+
+.back_i a {
+    padding: 20px 30px 0 30px;
+    font-family: "Yu Mincho";
+}
+
+.back_i a:hover {
+    padding: 20px 30px 0 30px;
+    color: red;
+}
+
+
+/* ------ 写真コーナーのもの ------ */
+
+#pictures_page {
+    background-image: url(../img/bg034_09.gif);
+}
+
+.slide-wrapper {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    color: #410a4d;
+    padding: 100px 0 60px 0;
+}
+
+.slide-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: "Yu Mincho";
+}
+
+.change-btn-wrapper {
+    width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.change-btn-wrapper:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.prev-btn {
+    cursor: pointer;
+    float: left;
+    /* 初期状態では非表示にしてください */
+    display: none;
+
+}
+
+.next-btn {
+    cursor: pointer;
+    float: right;
+}
+
+.slides {
+    padding: 0;
+}
+
+.slide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.slide img {
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.index-btn-wrapper {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.index-btn {
+    display: inline-block;
+    color: #74103f;
+    background-color: #e9d2b4;
+    width: 120px;
+    padding: 6px 0;
+    margin: 0 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.index-btn:hover {
+    color: #fff;
+    background-color: #9c2a8d;
+}
+
+
+
+/* -------------------------------- */
+
+#error_page {
+    background-image: url(../img/IMGP3448.JPG);
+    padding: 120px 0 450px 0;
+    background-size: cover;
+}
+
+#error_message {
+    font-size: 20px;
+    font-family: "Yu Mincho";
+    color: white;
+    margin-bottom: 80px;
+}
+
+.back_i_404 a {
+    font-size: 20px;
+    padding: 20px 30px;
+    color: white;
+    font-family: "Yu Mincho";
+}
+
+.back_i_404 a:hover {
+    font-size: 20px;
+    padding: 20px 30px;
+    color: red;
+    font-family: "Yu Mincho";
+}
+
+#thanks_link {
+    float: left;
+    color: rgb(53, 51, 177, 0.9);
+    font-size: 15px;
+    margin: 30px 0 15px 20px;
+}
+
+#thanks_link a {
+    display: block;
+    text-align: left;
+}
+
+#copyright {
+    float: right;
+    color: rgb(53, 51, 177, 0.9);
+    font-size: 15px;
+    margin: 80px 50px 0 0;
+}
