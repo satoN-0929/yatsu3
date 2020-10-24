@@ -120,10 +120,17 @@ img {
     margin-bottom: 5px;
 }
 
-#contents .content {
+#con_area {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #contents .content {
     width: 100%;
     height: auto;
-}
+} */
 
 .content .acontent_link {
     float: center;
