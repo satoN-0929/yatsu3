@@ -122,6 +122,7 @@ img {
 
 #contents .content {
     width: 100%;
+    height: auto;
 }
 
 .content .acontent_link {
