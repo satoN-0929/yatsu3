@@ -120,8 +120,9 @@ img {
     margin-bottom: 5px;
 }
 
-#con_area {
-    width: 100%;
+#contents #con_area {
+    width: 99%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -132,16 +133,15 @@ img {
     height: auto;
 } */
 
-.content .acontent_link {
+/* .content .acontent_link {
     float: center;
     background-color: orange;
     padding: 20px;
-}
+} */
 
 footer {
     height: 150px;
     width: 100%;
-    /* background-color: rgb(206, 184, 204); */
     /* 出典：http://umetouguisu.wp.xdomain.jp/64/ */
     background-image: url(../img/梅雨-1024x576.png);
 }
