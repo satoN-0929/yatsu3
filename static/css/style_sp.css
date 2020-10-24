@@ -82,7 +82,7 @@ img {
 #big-pic {
     height: 350px;
     width: 100%;
-    background-image: url(../img/IMGP3449sp.jpg);
+    background-image: url(../img/IMG_8991.jpg);
     background-size: cover;
     color: white;
     padding-bottom: 100px;
@@ -92,10 +92,10 @@ img {
 
 #big-pic p {
     font-family: "Yu Mincho";
-    font-size: 45px;
+    font-size: 32px;
     float: left;
     text-align: left;
-    padding: 160px 0 0 30px;
+    padding: 150px 0 0 30px;
 }
 
 #guzai {
