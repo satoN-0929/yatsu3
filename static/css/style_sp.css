@@ -103,7 +103,7 @@ img {
 }
 
 #contents {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 80px;
     width: 90%;
     display: block;
@@ -113,7 +113,7 @@ img {
 }
 
 #con_title {
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 #contents #content {
