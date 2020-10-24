@@ -80,7 +80,7 @@ img {
 
 
 #big-pic {
-    height: auto;
+    height: 350px;
     width: 100%;
     background-image: url(../img/IMGP3449sp.jpg);
     background-size: cover;
@@ -95,7 +95,7 @@ img {
     font-size: 45px;
     float: left;
     text-align: left;
-    padding: 210px 0 0 80px;
+    padding: 160px 0 0 30px;
 }
 
 #guzai {
