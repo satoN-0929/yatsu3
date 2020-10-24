@@ -112,16 +112,6 @@ img {
     padding: 30px 0;
 }
 
-#contents h2 {
-    margin-bottom: 5px;
-}
-
-.content .acontent_link {
-    float: center;
-    background-color: orange;
-    padding: 20px;
-}
-
 footer {
     height: 170px;
     width: 100%;
