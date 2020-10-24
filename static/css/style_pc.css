@@ -78,7 +78,7 @@ img {
 #big-pic {
     height: 450px;
     width: 100%;
-    background-image: url(../img/IMGP3449.JPG);
+    background-image: image-url('../img/IMGP3449.jpg');
     background-size: cover;
     color: white;
     padding-bottom: 100px;
