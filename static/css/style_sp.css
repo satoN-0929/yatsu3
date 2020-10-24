@@ -80,7 +80,7 @@ img {
 
 
 #big-pic {
-    height: 350px;
+    height: auto;
     width: 100%;
     background-image: url(../img/IMGP3449sp.jpg);
     background-size: cover;
@@ -445,7 +445,7 @@ footer {
     float: left;
     color: rgb(53, 51, 177, 0.9);
     font-size: 15px;
-    margin: 30px 0 15px 20px;
+    margin: 15px 0 15px 20px;
 }
 
 #thanks_link a {
@@ -457,5 +457,5 @@ footer {
     float: right;
     color: rgb(53, 51, 177, 0.9);
     font-size: 15px;
-    margin: 80px 50px 0 0;
+    margin: 50px 20px 0 0;
 }
