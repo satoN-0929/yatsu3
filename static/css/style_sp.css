@@ -82,6 +82,7 @@ img {
 #big-pic {
     height: 450px;
     width: 100%;
+    /* heroku表示でバグったから相対パスに変更 */
     background-image: url(https://lh3.googleusercontent.com/okJ7dPUMwdGy3R5kzuqUpEThbXoOSSDKiIlglgpMbEc5wPnc4yhSb2hB9WnusrX6GL9BuXdIHgUxRxhm-Ok89bK0kRfTHDxSHbPpfdvks5cTpRb6-axUQlyia9S73shoFR52zTBp8pUEYndjskc2Ix57Z6Lh2JFI6iwPaqEqLmLr_k-cZeqrUwq0eG1FIWDblARaJSRIur6hDq0IfpaKSp4XmRjuSCv5Ms6rkdgL0BKeZFUfNRxR52R6YzLxp9Muu8JEUhWzEWOK1JIMB8wdT4sXMVVux3Lkx8U6dAMXaVWZVW-eXYOJnMI3zqL-HJlmB2LF5EQAzDZpqBNSh0jMC5Xc9983OEXMiSiTLnNGebOET2LmDGo-CVNmiDA13nET-Jdd49J2TboOjkKeRqn7y1cy4LvOQMqARfeWxBw0JMjZ9CJ-P5LQA95dGyc4b7OJnrrKGV1j3BIFaAHWS9zSQGiunNhDuIckI82AF-6f9lMcF8HA4Nni7BL3igO_sKMdjWkUoJNGUhx__wF_vAar-eQT3tF_zb8PHNKYymHyNtCtbrche9ak8CQyaS-_Q06xA2IQTrTTGSRlJopxFVF583MTW_tCTyRiXl8p4hV4glvpxTiG9XGxCPQrcGcVMOa4Hb9Vz6CsCC-0FSQ2Z3IVFNGhalL5OSRVg3q6J6mmSN-T4taRAT7YU2w9A-w=w997-h565-no?authuser=0);
     background-size: cover;
     color: white;
@@ -105,7 +106,7 @@ img {
 #contents {
     padding-top: 20px;
     padding-bottom: 80px;
-    width: 600px;
+    width: 80px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/bg034_08.gif);

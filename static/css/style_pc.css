@@ -101,7 +101,8 @@ img {
 #contents {
     padding-top: 20px;
     padding-bottom: 100px;
-    width: 600px;
+    /* width: 600px; */
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/bg034_08.gif);
