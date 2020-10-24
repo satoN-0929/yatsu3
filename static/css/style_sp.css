@@ -120,9 +120,9 @@ img {
     margin-bottom: 5px;
 }
 
-/* .content {
+#contents .content {
     width: 100%;
-} */
+}
 
 .content .acontent_link {
     float: center;
