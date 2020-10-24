@@ -50,7 +50,6 @@ img {
     height: 100px;
     width: 100%;
     color: white;
-    /* background-color: rgb(219, 83, 83); */
     background-image: url(../img/メニュー用.png);
 
     opacity: 0.8;
@@ -83,11 +82,11 @@ img {
     height: 350px;
     width: 100%;
     background-image: url(../img/IMG_8991.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     color: white;
     padding-bottom: 100px;
-    text-align: center;
-    background-attachment: fixed;
+    /* text-align: center;
+    background-attachment: fixed; */
 }
 
 #big-pic p {
