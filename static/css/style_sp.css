@@ -107,6 +107,7 @@ img {
     padding-top: 20px;
     padding-bottom: 80px;
     width: 90%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/bg034_08.gif);
@@ -118,10 +119,9 @@ img {
 
 #contents #con_area {
     width: 100%;
-    height: 500px;
-    display: block;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 /* #contents .content {
@@ -218,7 +218,7 @@ footer {
 }
 
 #kumamon_text {
-    width: 50%;
+    width: 55%;
     padding: 15px;
 }
 
