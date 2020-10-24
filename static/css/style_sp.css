@@ -106,7 +106,7 @@ img {
 #contents {
     padding-top: 20px;
     padding-bottom: 80px;
-
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/bg034_08.gif);
@@ -343,7 +343,7 @@ footer {
 
 .slide-title {
     font-size: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: "Yu Mincho";
 }
 
@@ -401,7 +401,7 @@ footer {
     background-color: #e9d2b4;
     width: 120px;
     padding: 6px 0;
-    margin: 0 2px;
+    margin: 4px 2px;
     border-radius: 3px;
     cursor: pointer;
 }
