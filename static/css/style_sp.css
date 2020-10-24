@@ -101,6 +101,7 @@ img {
 
 #guzai {
     background-image: url(../img/bg096_05.gif);
+    width: 100%;
 }
 
 #contents {
@@ -119,6 +120,7 @@ img {
 
 #contents #content {
     width: 100%;
+    height: auto;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
