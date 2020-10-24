@@ -106,7 +106,7 @@ img {
 #contents {
     padding-top: 20px;
     padding-bottom: 80px;
-    width: 80px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/bg034_08.gif);
@@ -118,6 +118,10 @@ img {
 
 #contents h2 {
     margin-bottom: 5px;
+}
+
+.content {
+    width: 100%;
 }
 
 .content .acontent_link {
@@ -217,7 +221,7 @@ footer {
 
 #kumamon_text {
     width: 50%;
-    padding: 50px 20px 0px 20px;
+    padding: 50px 20px 20px 20px;
 }
 
 .sb_tl {
