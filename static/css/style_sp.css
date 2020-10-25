@@ -230,6 +230,7 @@ footer {
 
 #kumamon_contents_2 {
     width: 90%;
+    height: 300px;
     text-align: left;
     display: flex;
     margin-left: auto;
@@ -238,7 +239,7 @@ footer {
 }
 
 #dancing_kumamon {
-    width: 100%;
+    width: 85%;
     display: block;
     margin-left: auto;
     margin-right: auto
